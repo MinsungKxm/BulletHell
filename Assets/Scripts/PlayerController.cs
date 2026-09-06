@@ -22,4 +22,8 @@ public class PlayerController : MonoBehaviour
             Vector3.up * turnSpeed * Time.deltaTime * moveInput.x
         );
     }
+    private void OnTriggerEnter(Collider other) {
+        Destroy(gameObject);
+        Destroy(other.gameObject);
+    }
 }

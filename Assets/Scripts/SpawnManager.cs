@@ -17,6 +17,6 @@ public class SpawnManager : MonoBehaviour
         
     }
     void spawnProjectile() {
-        Instantiate(projectile, transform.position, projectile.transform.rotation);
+        Instantiate(projectile, transform.position, transform.rotation);
     }
 }
