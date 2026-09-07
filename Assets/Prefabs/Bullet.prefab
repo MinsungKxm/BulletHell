@@ -68,7 +68,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5daf7bc6ad975314aa28cf87817c3511, type: 2}
+  - {fileID: 2100000, guid: bf653bc3c2109e744ad301df144058b6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -125,4 +125,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5a7b3a15bba10045b60a6d8ba2deba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
-  speed: 0.01
+  speed: 0.02
