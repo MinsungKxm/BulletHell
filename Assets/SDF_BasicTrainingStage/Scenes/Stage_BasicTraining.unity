@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.035
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.73857594, g: 0.7477299, b: 0.7660377, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: b4f3f8fcfbc6a5f41928381ec4c0479d, type: 2}
   m_HaloStrength: 0.5
@@ -376,6 +376,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1711557468275049219, guid: 968037aa1f81d18418f9890e9c473da3, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711557468275049219, guid: 968037aa1f81d18418f9890e9c473da3, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2105797653215902707, guid: 968037aa1f81d18418f9890e9c473da3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.68
@@ -422,7 +430,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6438397938199485629, guid: 968037aa1f81d18418f9890e9c473da3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078162143232674076, guid: 968037aa1f81d18418f9890e9c473da3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -682,7 +694,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2171344796250971638, guid: bb32bcdeb20ef0049a7560efe0b456ac, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4429930124210465158, guid: bb32bcdeb20ef0049a7560efe0b456ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848332826938611376, guid: bb32bcdeb20ef0049a7560efe0b456ac, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8646437558818418865, guid: bb32bcdeb20ef0049a7560efe0b456ac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -896,6 +916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 8900028418588671756, guid: 3d61ee940ae587e419f36b5a7e37868e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8949813524979781780, guid: 3d61ee940ae587e419f36b5a7e37868e, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -1095,6 +1119,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 89780898119979690, guid: 8bc380d74c46ce34a824b8987464aebe, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2190725599862499238, guid: 8bc380d74c46ce34a824b8987464aebe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.473
@@ -1135,13 +1163,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6043838392440620260, guid: 8bc380d74c46ce34a824b8987464aebe, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6084188365963441291, guid: 8bc380d74c46ce34a824b8987464aebe, type: 3}
       propertyPath: m_Name
       value: EnemyRootB
       objectReference: {fileID: 0}
     - target: {fileID: 6084188365963441291, guid: 8bc380d74c46ce34a824b8987464aebe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1399,7 +1431,7 @@ Transform:
   m_GameObject: {fileID: 2003349278}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
