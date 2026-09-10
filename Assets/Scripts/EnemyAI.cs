@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour {
     private GameObject player;
-
+/*
+ 
+ */
     public float moveSpeed = 3f;
     public float turnSpeed = 180f;
 
